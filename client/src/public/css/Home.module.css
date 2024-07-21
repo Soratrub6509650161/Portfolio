@@ -1,0 +1,41 @@
+.bodyHome{
+    margin-top: 6.5rem;
+}
+.HeadP{
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-bottom: 0.2rem;
+}
+.Headh1{
+    font-size: 3.5rem;
+    font-weight: bolder;
+    font-style: normal;
+    color: #03fc9e;
+}
+.tailP{
+    margin-top: 1rem;
+    font-weight: normal;
+    font-size: 1.1rem;
+    margin-bottom: 0.2rem;
+    letter-spacing: 1.5px;
+}
+.GroupButton{
+    margin-top: 2rem;
+    display: flex;
+}
+
+.imgProfile {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    border: 3px solid #03fc9e;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.imgProfile:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 0 40px 20px rgba(3, 252, 158, 1); 
+}
+
+
+

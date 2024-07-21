@@ -1,0 +1,52 @@
+.carouselImage {
+  max-height: 500px;
+  object-fit: cover;
+  width: 20rem;
+}
+
+.NumPro {
+  font-size: 5rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+.wrapWork {
+  margin-top: 7rem;
+}
+
+.projectTitle {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.projectBody {
+  color: #a4a3aa;
+  font-size: 1.15rem;
+  margin-bottom: 2rem;
+}
+
+.projectLanguages {
+  color: #03fc9e;
+  font-size: 1.4rem;
+  padding-bottom: 1rem;
+  position: relative;
+}
+
+.projectLanguages::after {
+  content: "";
+  display: block;
+  width: 90%;
+  /* Set the desired width of the border */
+  border-bottom: 1px solid #a4a3aa;
+  padding-top: 2.5rem;
+}
+
+.ButtonPreNext {
+  background-color: #03fc9e;
+  border-radius: 0;
+  margin-left: 1rem;
+  color: black;
+  font-size: 1rem;
+}
+

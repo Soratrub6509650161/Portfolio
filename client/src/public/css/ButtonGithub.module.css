@@ -1,0 +1,20 @@
+.iconButton {
+    background-color: #1c1b22; 
+    color: #03fc9e; 
+    border-radius: 50%; 
+    padding: 0.5rem; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 4rem; 
+    height: 4rem; 
+    border: 1px solid #03fc9e; 
+    margin-left: 1rem; 
+  }
+  
+  .iconButton:hover {
+    background-color: #03fc9e;; 
+    color: #1c1b22;
+    cursor: pointer;
+  }
+  

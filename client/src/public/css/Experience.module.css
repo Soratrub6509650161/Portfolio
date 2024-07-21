@@ -1,0 +1,52 @@
+.headExp {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.bodyExp {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-height: 26rem; 
+    gap: 35px;
+    overflow-y: hidden; 
+    transition: overflow-y 0.3s ease-in-out; 
+}
+
+.bodyExp:hover {
+    overflow-y: auto; 
+    scroll-behavior: smooth; 
+}
+
+
+
+
+.bodyExp::-webkit-scrollbar {
+    width: 6px; 
+}
+
+.bodyExp::-webkit-scrollbar-track {
+    background: transparent; 
+}
+
+.bodyExp::-webkit-scrollbar-thumb {
+    background-color: #03fc9e;
+    border-radius: 10px; 
+    border: 2px solid transparent; 
+}
+
+.bodyExp::-webkit-scrollbar-thumb:hover {
+    background-color: #03c97d; 
+}
+
+/* สำหรับ Firefox */
+.bodyExp {
+    scrollbar-width: thin; 
+    scrollbar-color: #03fc9e transparent; 
+}
+
+.bodyExp:hover {
+    overflow-y: auto; 
+}
+
+
+

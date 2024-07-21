@@ -1,0 +1,16 @@
+.box {
+  width: 100%;
+  padding: 2rem;
+  border: 1px solid #ccc;
+  background-color: #28242c;
+  border: none;
+  border-radius: 1rem;
+}
+
+.Date {
+  color: #03fc9e;
+}
+
+.Head{
+  font-size: 1.2rem;
+}

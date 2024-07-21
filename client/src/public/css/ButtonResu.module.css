@@ -1,0 +1,16 @@
+.ButtonLeft {
+    width: 100%;
+    height: 3rem;
+    font-size: 1rem;
+    background-color: #03fc9e;
+    border: none;
+    color: #1c1b22;
+    margin-bottom: 1.5rem;
+    font-weight: bolder;
+}
+
+.ButtonLeft:hover {
+    background-color: #008451;
+    border: none;
+    color: #1c1b22;
+}

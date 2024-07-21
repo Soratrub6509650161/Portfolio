@@ -1,0 +1,16 @@
+.ButtonCv {
+    background-color: #1c1b22;
+    border-radius: 2rem; 
+    padding: 1rem 2rem; 
+    color: #03fc9e; 
+    font-size: 1rem; 
+    border: 1px solid #03fc9e; 
+    cursor: pointer; 
+  }
+  .ButtonCv:hover {
+    background-color: #03fc9e;
+    color:#1c1b22;
+    border: none;
+  }
+  
+  

@@ -1,0 +1,67 @@
+.GlobalNav {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  font-weight: 900;
+  font-style: normal;
+  letter-spacing: 0.75px;
+  padding: 0;
+}
+
+.HeadnavbarItem {
+  cursor: pointer;
+  padding: 1rem 0;
+  font-size: 2.1rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  display: flex;
+}
+
+.TailNav {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  font-size: 1.2rem;
+  padding: 1rem 0;
+  margin: 0;
+}
+
+.navbarItem {
+  cursor: pointer;
+  margin: 0 1rem;
+  padding: 1rem 0;
+  transition: color 0.5s;
+}
+
+.navbarItem:hover {
+  color: #03fc9e;
+}
+
+.active {
+  border-bottom: 3px solid #03fc9e;
+  color: #03fc9e;
+}
+
+.dotHead {
+  color: #03fc9e;
+  font-size: 2rem;
+}
+
+.tailHigh {
+  background-color: #03fc9e;
+  cursor: pointer;
+  margin: 0 1rem;
+  font-size: 1.2rem;
+  border-radius: 5rem;
+  padding: 1rem;
+  color: #1c1b22;
+}
+
+.tailHigh:hover{
+  background-color: #03c97d;
+}
+
+.navbarLink {
+  color: inherit; /* ให้ลิงก์ใช้สีของ `<li>` */
+  text-decoration: none; /* ลบ underline ของลิงก์ */
+}

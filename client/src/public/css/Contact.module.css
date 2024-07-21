@@ -1,0 +1,128 @@
+.backContact {
+  background: #28272c;
+  padding: 2.5rem;
+  border-radius: 0.5rem;
+}
+
+.HeadTitle {
+  color: #03fc9e;
+  font-size: 2.25rem;
+}
+
+.loremTitle {
+  color: #a4a3aa;
+  margin-top: 1rem;
+}
+
+.formTitle {
+  margin-bottom: 10px;
+}
+
+.formDescription {
+  margin-bottom: 20px;
+  color: #aaa;
+}
+
+.contactForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.formGroup {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+}
+
+.inputst {
+  background-color: #1c1b22;
+  color: #eceef3;
+  border: 1px solid #555;
+  border-radius: 5px;
+  padding: 10px;
+  width: 48%;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.textarea {
+  width: 100%;
+  resize: none;
+  height: 12rem;
+}
+
+.option {
+  width: 100%;
+  resize: none;
+}
+
+
+.optionPlaceholder {
+  color: #b31f1f; 
+}
+
+
+.btnSubmit {
+  background-color: #00ff9d;
+  color: #000;
+  border: none;
+  border-radius: 5rem;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+  width: 30%;
+  font-size: 1rem;
+}
+
+.btnSubmit:hover {
+  background-color: #00cc7a;
+}
+
+.inputst:focus {
+  border-color: #03fc9e;
+  /* เปลี่ยนสี border เป็นสีที่ต้องการ */
+  box-shadow: 0 0 5px rgba(3, 252, 158, 0.5);
+  /* เพิ่ม shadow เพื่อให้เห็นชัดเจนยิ่งขึ้น */
+  outline: none;
+  /* ปิดการแสดงผลของ outline */
+}
+
+.iconContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #28272c;
+  padding: 1rem;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 0.2rem;
+}
+
+.icon {
+  font-size: 1.75rem;
+  color: #00cc7a;
+}
+
+.wrapicon{
+  display: flex;
+  margin-bottom: 1.5rem;
+}
+
+.Head{
+  margin-bottom:0.5rem ;
+  font-size: 0.9rem;
+  color:#a4a3aa ;
+}
+
+.text{
+  margin-left: 2rem;
+}
+
+.Title{
+  font-size: 1.15rem;
+}
+
+.rightCol{
+  display: flex;
+  align-items: center;
+}
